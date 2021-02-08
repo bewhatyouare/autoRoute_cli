@@ -1,7 +1,11 @@
 {
-  "name": "qq-auto-createrouter",
+  "name": "auto-createrouter",
   "version": "0.0.1",
   "description": "自动生成路由配置文件",
+  "Keywords": [
+    "auto create vue-route file",
+    "router-file"
+  ],
   "main": "index.js",
   "bin": {
     "nxl": "./bin/index.js"
@@ -9,9 +13,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository":{
+  "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/bewhatyouare/autoRoute_cli.git"
   },
   "author": "hq",
   "dependencies": {
