@@ -1,0 +1,9 @@
+export default  [
+    {{#each list}}
+    {
+      path: '/{{name}}',
+      name: '{{name}}',
+      component: () => import('./src/views{{file}}')
+    },
+    {{/each}}
+]
